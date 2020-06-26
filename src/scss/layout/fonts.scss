@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/subset-PTSans-Regular.woff2') format('woff2'),
+        url('../fonts/subset-PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/subset-OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/subset-OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/subset-OpenSans.woff2') format('woff2'),
+        url('../fonts/subset-OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/subset-NexaLight.woff2') format('woff2'),
+        url('../fonts/subset-NexaLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

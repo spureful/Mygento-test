@@ -1,0 +1,40 @@
+.promo {
+    
+    min-height: 650px;
+    background: url(../img/bg-desktop.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    height: 100vh;
+
+   
+    // top: 100%;
+
+    @include tablet {
+        background-image: url(../img/bg-tablet.jpg);
+    }
+
+    @include phone {
+        background-image: url(../img/bg-mobile.jpg);
+        height: 267px;
+    }
+}
+
+.promo__scoll {
+    text-align: center;
+
+    @include tablet {
+        display: none;
+    }
+}
+
+.promo__scroll-txt {
+ 
+    
+}
+
+.promo__scroll-icon {
+    margin: 0 auto;
+}

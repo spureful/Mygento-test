@@ -1,0 +1,18 @@
+section.about#about
+    .container
+        
+        .about__head
+            include ./nav
+
+        .about__content
+            .about__col
+                + pic("man-desktop", "man-tablet", "man-mobile", "about__pic", "about__img")
+            .about__col.about__col--content
+                h2.about__title About Me
+                .about__text
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                h3.about__name Jason Wood
+        .about__scroll.scroll
+            .about__scroll-txt.scroll__text keep scrolling, there is still more to come.
+            a(href="#").about__scroll-icon.scroll__icon

@@ -1,0 +1,25 @@
+mixin icon(iconName, iconClass)
+  svg(class=`${iconClass}`)
+    use(xlink:href=`img/icons/sprite.svg#${iconName}`)
+
+mixin image(imagePath, imageAlt, imageClass)
+  img(src=`img/${imagePath}`, alt=`${imageAlt}`, class=`${imageClass}`)
+
+mixin pic(desktop, tablet, mobile, classPic, classImg)
+  picture(class=`${classPic}`) 
+    source(srcset=`img/${mobile}.jpg` media="(max-width:490px)" class=`${classImg}` )
+    source(srcset=`img/${tablet}.jpg` media="(max-width:768px)"  class=`${classImg}`)
+    img(src=`img/${desktop}.jpg` class=`${classImg}`)
+
+
+	  
+
+
+	
+	  
+
+	  
+
+
+				   
+  

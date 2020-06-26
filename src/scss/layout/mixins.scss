@@ -1,0 +1,23 @@
+$white-color: #f1f1f1;
+
+@function rem($px: 16px) {
+    @return ($px / 16px) + rem;
+}
+
+
+@mixin netbook {
+	@media screen and (max-width: 1255px) {
+		@content;
+	}
+}
+@mixin tablet {
+	@media screen and (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin phone {
+	@media screen and (max-width: 583px) {
+		@content;
+	}
+}
