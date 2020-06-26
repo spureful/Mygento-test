@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="Ru ru">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title> </title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div class="promo">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">About Me</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Portfolio</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="promo__scoll scroll">
+            <div class="promo__scroll-txt scroll__text">scroll down to see more</div><a class="promo__scroll-icon scroll__icon" href="#about"></a>
+          </div>
+        </div>
+        <section class="about" id="about">
+          <div class="container">
+            <div class="about__head">
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#">About Me</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#">Portfolio</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="about__content">
+              <div class="about__col">
+                <picture class="about__pic"> 
+                  <source class="about__img" srcset="img/man-mobile.jpg" media="(max-width:490px)"/>
+                  <source class="about__img" srcset="img/man-tablet.jpg" media="(max-width:768px)"/><img class="about__img" src="img/man-desktop.jpg"/>
+                </picture>
+              </div>
+              <div class="about__col about__col--content">
+                <h2 class="about__title">About Me</h2>
+                <div class="about__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <h3 class="about__name">Jason Wood</h3>
+              </div>
+            </div>
+            <div class="about__scroll scroll">
+              <div class="about__scroll-txt scroll__text">keep scrolling, there is still more to come.</div><a class="about__scroll-icon scroll__icon" href="#"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="js/scripts.js"></script>
+</html>
