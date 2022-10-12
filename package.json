@@ -21,7 +21,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-replace": "^0.6.1",
     "gulp-sass": "^4.0.1",
-    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svg-sprite": "^1.5.0",
     "gulp-svgmin": "^1.2.4",
     "gulp-watch": "^5.0.0",
     "gulp4-run-sequence": "^0.3.2",
